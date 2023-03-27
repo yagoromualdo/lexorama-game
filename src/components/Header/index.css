@@ -1,0 +1,66 @@
+.header-main {
+    background: linear-gradient(120deg, #2464ec 25%, #37a1f8 51%, #0d78f3 84%);
+    height: 60px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px 0 140px;
+}
+
+.header-title-main {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.header-title {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.header-title:hover {
+   opacity: .8;
+}
+
+.header-content-user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.header-login-user {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.login-icon-user, .login-user-name, .login-user-professional {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.login-user-name {
+    margin: 0px 2px 2px 0;
+    font-size: .7rem;
+}
+
+.login-user-professional {
+    font-size: .6rem;
+    text-align: end;
+    width: 100%;
+    margin-right: 5px;
+}
+
+@media (max-width: 1000px) { 
+    .header-content-user {
+        display: none;
+    }
+ }

@@ -1,0 +1,179 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.login-img {
+    background-image: url(https://cangurunews.com.br/wp-content/uploads/2020/10/games-site.jpg);
+    height: 100vh;
+    width: 767px;
+    background-size: cover;
+}
+
+.login-main-title {
+    margin-bottom: 25px;
+}
+
+.lexorama-title {
+    color: #fff;
+    background: linear-gradient(120deg,#2464ec 25%,#37a1f8 51%,#0d78f3 84%);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 8px;
+    width: 356px;
+    text-align: center;
+}
+
+.login-card-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-card-content {
+    background-color: #ffffff;
+    border-top: 5px solid #0d6efd;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 7px 29px 0 rgb(100 100 111 / 20%);
+    height: 400px;
+    width: 370px;
+}
+
+.login-card-title {
+    color: #2A61CD;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.login-card-title-content {
+    color: #0d6efd;
+    font-size: 1.7rem;
+}
+
+.login-input-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    margin-top: 25px;
+}
+
+.login-input-content {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.login-icon-gmail, .login-icon-password {
+    color: #2464ec;
+    padding: 15px;
+    position: absolute;
+}
+
+.login-input {
+    background-color: #afcfff2a;
+    border: none;
+    border-radius: 6px;
+    font-size: .8rem;
+    font-weight: bold;
+    outline: none;
+    padding: 20px;
+    width: 280px;
+}
+
+.login-input::placeholder {
+    color: #c6c6c6;
+    font-weight: bold;
+}
+
+.login-forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.forgot-password:hover {
+    opacity: .8;
+}
+
+.forgot-password {
+    color: #0d6efd;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.login-input-btn {
+    margin-top: 35px;
+}
+
+.login-btn-acessar {
+    background-color: #0d6efd;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 17px;
+    text-transform: uppercase;
+    transition: all ease 200ms;
+    width: 320px;
+}
+
+.login-btn-acessar:hover {
+    opacity: .8;
+}
+
+.login-player-psico {
+    display: flex;
+    margin-top: 25px;
+}
+
+.login-btn-psico, .login-btn-player {
+    background: linear-gradient(120deg,#2464ec 25%,#37a1f8 51%,#0d78f3 84%);
+    border: none;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 190px;
+    margin: 0 20px 0 20px;
+}
+
+.login-btn-psico:hover, .login-btn-player:hover {
+    opacity: .8;
+}
+
+@media (max-width: 1370px) {
+    .login-img {
+        width: 650px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1176px) {
+    .login-btn-psico, .login-btn-player {
+        width: 160px;
+        margin: 0 10px 0 10px;
+    }
+
+    .login {
+        background-image: url(https://cangurunews.com.br/wp-content/uploads/2020/10/games-site.jpg);
+    }
+
+    .login-img {
+        background: none;
+        height: 0;
+        width: 0;
+        background-size: none;
+    }
+}

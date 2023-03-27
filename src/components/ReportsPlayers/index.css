@@ -1,0 +1,66 @@
+.reports {
+    width: 100%;
+}
+
+.reports-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+.reports-main-contents {
+    background-color: #fff;
+    border-top: 5px solid #0d6efd;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 1250px;
+    padding: 40px;
+    height: 440px;
+    -webkit-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.27);
+}
+
+.reports-contents-title {
+    color: #0d6efd;
+    font-size: 1.2rem;
+}
+
+.reports-main-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reports-search, .reports-Visibility {
+    border-radius: 20px;
+    cursor: pointer;
+    color: #2A61CD;
+    padding: 16px 7px 2px 7px;
+}
+
+.reports-search:hover, .reports-Visibility:hover {
+    background-color: #dddddd;
+}
+
+.register-players {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 280px;
+}
+
+.btn-add-players {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+}
+.btn-add-players:hover {
+ opacity: .8;
+}
+
+
+@media (max-width: 991.98px) {}
